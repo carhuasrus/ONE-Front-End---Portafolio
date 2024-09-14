@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/sobremi.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/curriculum.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">   
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"> Rusmihd Carhuas </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="" alt="">
+            </div>
+            <h1>Rusmihd</h1>
+            <h2>Desarrollador de Software - Front end</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/carhuasrus?tab=projects"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.skype.com/es/"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span> Hola, soy Rusmihd Carhuas .</span> Mi experiencia académica y profesional me ha brindado conocimientos sólidos en contabilidad, finanzas y análisis de datos. Además, he desarrollado habilidades en el manejo de Microsoft Office. Me considero una persona proactiva, organizada y analítica, con capacidad para trabajar en equipo y resolver problemas.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            17/12/2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            07777-777777
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            contacto.24@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                           github.com/carhuasrus
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                                    Lima-Perú
+                        </li>
+                        <li>
+                            <strong> Autor </strong>
+                            <span>CARHUASH.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span> Creación de Dashboards en Power BI  </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> Herramientas de Marketing Digital / Redes Sociales </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> Wordpress & Make </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Autodidacta</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3> FORMACIÓN ACADÉMICA </h3>
+                    <div class="item izq">
+                        <h4> DATA ANALYTICS PARA MARKETING </h4>
+                        <span class="casa">Asociación Hack Space Perú</span>
+                        <span class="fecha"> OCTUBRE 2022 / FEBRERO 2023</span>
+                        <p> Promueve el desarrollo de habilidades tecnológicas y el espíritu de colaboración en la comunidad de tecnología y maker en Perú. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> EGRESADA EN CONTABILIDAD </h4>
+                        <span class="casa"> I.S.T. “Arturo Sabroso Montoya" </span>
+                        <span class="fecha"> MARZO 2020 – DICIEMBRE 2022 </span>
+                        <p>Aprendí una variedad de documentos importantes en el ámbito contable y financiero </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>INGENIERIA INDUSTRIAL </h4>
+                        <span class="casa"> Universidad Continental </span>
+                        <span class="fecha"> Julio 2023 - Actual</span>
+                        <p>Introducción a la Ingeniería Industrial
+                            Conceptos Matemáticos
+                            Herramientas Cad
+                            Herramientas De Ofimática
+                            Redacción Académica, etc.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>FORMACIÓN COMPLEMENTARIA</h3>
+                    <div class="item der">
+                        <h4> ASISTENTE DE RECURSOS HUMANOS </h4>
+                        <span class="casa">Itec123</span>
+                        <span class="fecha"> MARZO 2023 – MARZO 2023 </span>
+                        <p>Selección de personal /  evaluación de Desempeño .</p>
+                        <p>Legislación Laboral / Contratación, remuneración y compensaciones </p>
+                        <p> Gestión del Capital Humano y Toma de Decisiones, etc. </p>
+                         
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4> DIPLOMADO DE OFIMATICA </h4>
+                        <span class="casa"> MINPE INST. DE FORM. Y ESPECIALIZACIÓN  </span>
+                        <span class="fecha"> FEBRERO 2023 – MARZO 2023 </span>
+                        <p> MICROSOFT WORD (Básico/Avanzado) </p>
+                        <p> MICROSOFT POWER POINT (Básico/Avanzado) </p>
+                        <p> MICROSOFT EXCEL (Básico/Avanzado) </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/decodificador.PNG" alt="encriptador">
+                    
+                    <div class="overlay" >
+                        <a class="text__encriptador" ></a>
+                       
+                        <p>Alura latam</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/apeparia1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Apeperia</h3>
+                        <p>curso frontend</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/minialura.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Mini alura</h3>
+                        <p>Lenguajes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                     <img src="img/planes.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Apeperia</h3>
+                        <p>Planes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/minialura2.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Mini alura</h3>
+                        <p>Footer</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/apeperiafooter.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Apeperia</h3>
+                        <p>Footer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <form class="col" action="https://formsubmit.co/contacto.24@gmail.com" method="POST">
+                    <input type="text" name="nombre" required="" pattern="[a-zA-Z]+" placeholder="Tú nombre">
+                    <input type="text" name="telefono" minlength="9" maxlength="16" required="" pattern="[0-9]+" placeholder="Número telefónico">
+                    <input type="email" name="email" required="" placeholder="Dirección de correo">
+                    <input type="text" name="asunto" required="" placeholder="Asunto">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/contact_bg.PNG" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i> Lima-Perú
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                               Tel:
+							   07777-777777
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i><p> contacto.24@gmail.com <p>
+								
+								
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/carhuasrus?tab=projects"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.skype.com/es/"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
